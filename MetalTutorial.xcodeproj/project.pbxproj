@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF04243D2B599B64004C98E7 /* MetalCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF04243C2B599B64004C98E7 /* MetalCircleView.swift */; };
+		DF04243F2B599DE5004C98E7 /* MetalCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF04243E2B599DE5004C98E7 /* MetalCircle.swift */; };
 		DFE96A702B5996CD009CE8B5 /* MetalTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE96A6F2B5996CD009CE8B5 /* MetalTutorialApp.swift */; };
 		DFE96A722B5996CD009CE8B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE96A712B5996CD009CE8B5 /* ContentView.swift */; };
 		DFE96A742B5996CE009CE8B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE96A732B5996CE009CE8B5 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF04243C2B599B64004C98E7 /* MetalCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalCircleView.swift; sourceTree = "<group>"; };
+		DF04243E2B599DE5004C98E7 /* MetalCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalCircle.swift; sourceTree = "<group>"; };
 		DFE96A6C2B5996CD009CE8B5 /* MetalTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE96A6F2B5996CD009CE8B5 /* MetalTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalTutorialApp.swift; sourceTree = "<group>"; };
 		DFE96A712B5996CD009CE8B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF04243B2B599B54004C98E7 /* Chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				DF04243C2B599B64004C98E7 /* MetalCircleView.swift */,
+				DF04243E2B599DE5004C98E7 /* MetalCircle.swift */,
+			);
+			path = Chapter1;
+			sourceTree = "<group>";
+		};
 		DFE96A632B5996CD009CE8B5 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +68,7 @@
 			children = (
 				DFE96A6F2B5996CD009CE8B5 /* MetalTutorialApp.swift */,
 				DFE96A712B5996CD009CE8B5 /* ContentView.swift */,
+				DF04243B2B599B54004C98E7 /* Chapter1 */,
 				DFE96A732B5996CE009CE8B5 /* Assets.xcassets */,
 				DFE96A752B5996CE009CE8B5 /* Preview Content */,
 			);
@@ -146,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFE96A722B5996CD009CE8B5 /* ContentView.swift in Sources */,
+				DF04243F2B599DE5004C98E7 /* MetalCircle.swift in Sources */,
+				DF04243D2B599B64004C98E7 /* MetalCircleView.swift in Sources */,
 				DFE96A702B5996CD009CE8B5 /* MetalTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
