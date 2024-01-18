@@ -11,6 +11,7 @@
 		DFE96A722B5996CD009CE8B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE96A712B5996CD009CE8B5 /* ContentView.swift */; };
 		DFE96A742B5996CE009CE8B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE96A732B5996CE009CE8B5 /* Assets.xcassets */; };
 		DFE96A772B5996CE009CE8B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE96A762B5996CE009CE8B5 /* Preview Assets.xcassets */; };
+		DFE96A7F2B59974C009CE8B5 /* Alloy in Frameworks */ = {isa = PBXBuildFile; productRef = DFE96A7E2B59974C009CE8B5 /* Alloy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE96A7F2B59974C009CE8B5 /* Alloy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = MetalTutorial;
+			packageProductDependencies = (
+				DFE96A7E2B59974C009CE8B5 /* Alloy */,
+			);
 			productName = MetalTutorial;
 			productReference = DFE96A6C2B5996CD009CE8B5 /* MetalTutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = DFE96A632B5996CD009CE8B5;
+			packageReferences = (
+				DFE96A7D2B59974C009CE8B5 /* XCRemoteSwiftPackageReference "Alloy" */,
+			);
 			productRefGroup = DFE96A6D2B5996CD009CE8B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DFE96A7D2B59974C009CE8B5 /* XCRemoteSwiftPackageReference "Alloy" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/s1ddok/Alloy";
+			requirement = {
+				kind = exactVersion;
+				version = 0.18.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DFE96A7E2B59974C009CE8B5 /* Alloy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFE96A7D2B59974C009CE8B5 /* XCRemoteSwiftPackageReference "Alloy" */;
+			productName = Alloy;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DFE96A642B5996CD009CE8B5 /* Project object */;
 }
